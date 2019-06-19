@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 
-  s.name         = "CTNetworking"
+  s.name         = "CAPCTNetworking"
   s.version      = "1.0.0"
   s.summary      = "CTNetworking is an iOS discrete HTTP API calling framework based on AFNetworking."
   s.description  = <<-DESC
@@ -15,8 +15,7 @@ Pod::Spec.new do |s|
   s.author             = { "CasaTaloyum" => "casatwy@msn.com" }
   s.platform     = :ios, "8.0"
 
-#s.source       = { :git => "https://github.com/Corotata/RTNetworking.git", :tag => "#{s.version}" }
-    s.source       = { :git => "https://github.com/Corotata/RTNetworking.git"}
+  s.source       = {:git => "https://github.com/captain9911/RTNetworking.git", :tag => s.version}
 
   s.source_files  = "CTNetworking/CTNetworking/**/*.{h,m}"
   #s.public_header_files = "CTNetworking/CTNetworking/**/*.h"
